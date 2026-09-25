@@ -1,0 +1,27 @@
+# Runtime cache files — large, regenerated automatically
+exec_cache.json
+exec_computed.json
+exec_data_cache.json
+.exec_refresh_done
+
+# Env / secrets — never commit real credentials
+.env
+*.env
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+
+# Real (non-anonymised) org exports — keep these out of the repo
+*.real.json
+users_*.csv
+demo_data.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
