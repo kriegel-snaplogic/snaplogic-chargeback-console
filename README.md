@@ -1,5 +1,9 @@
 # SnapLogic Chargeback Console
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://snaplogic-chargeback-console.streamlit.app/)
+
+**Live demo → [snaplogic-chargeback-console.streamlit.app](https://snaplogic-chargeback-console.streamlit.app/)**
+
 A Streamlit app that turns SnapLogic platform usage into a per-business-unit cost
 breakdown — the thing finance asks for when a shared integration platform is paid
 for centrally but used by everyone.
@@ -8,8 +12,10 @@ It attributes pipeline executions to business units, spreads Snaplex node cost a
 platform overhead across them, and produces a monthly chargeback report you can
 hand over.
 
-> Ships with a synthetic demo dataset, so you can clone it and see the whole thing
-> working before pointing it at your own org. See [Demo data](#demo-data).
+> The live demo and this repo both run on a synthetic dataset — see
+> [Demo data](#demo-data). The demo is public and has no login, so treat anything
+> you change in it as visible to the next visitor; see
+> [Access control](#access-control--there-is-none-right-now).
 
 ## Screens
 
