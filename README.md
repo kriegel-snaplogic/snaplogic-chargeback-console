@@ -24,8 +24,8 @@ hand over.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-org>/sl-chargeback-console.git
-cd sl-chargeback-console
+git clone https://github.com/kriegel-snaplogic/snaplogic-chargeback-console.git
+cd snaplogic-chargeback-console
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
